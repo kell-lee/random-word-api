@@ -3,7 +3,7 @@
 const baseUrl = 'https://random-word-api.herokuapp.com';
 
 export default async function handler(req, res) {
-    const { count } = req.query.count || 1;
+    const count = req.query.count || 1;
     const numWords = count ? parseInt(count, 10) : 1;
 
     try {
