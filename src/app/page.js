@@ -39,7 +39,7 @@ export default function Home() {
 </select>
       <div>
         <button onClick={() => getWords(1)} disabled={loading}>
-          {loading ? 'Loading...' : 'Get 1 Word'}
+          {loading ? 'Loading...' : 'Get a word'}
         </button>
 
       </div>
